@@ -14,6 +14,9 @@
 	<name>helloword</name>
 	<description>Hello World project for Spring Boot</description>
 	<url/>
+	<beans>
+    	<bean id="myBean" class="com.openclassrooms.BeanImpl"/>
+	</beans>
 	<licenses>
 		<license/>
 	</licenses>
